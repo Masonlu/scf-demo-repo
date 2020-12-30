@@ -1,6 +1,6 @@
 # scf-demo-repo
 
-SCF 无服务器云函数 Demo 代码库
+SCF 云函数 Demo 代码库
 
 # Demo说明
 
@@ -76,7 +76,7 @@ python
     },    #the description of input parameters.
     "output_parameters":{        #the description of output_parameters.
         {
-            "isBase64": False,
+            "isBase64Encoded": False,
             "statusCode": 200,
             "headers": {"Content-Type":"text/html"},
             "body": "<html><body><h1>Heading</h1><p>Paragraph.</p></body></html>"
@@ -126,7 +126,7 @@ python
 1. 需要注意代码提交时不要带有 SecretID，SecretKey 等信息。
 2. 关键信息可修改为通过环境变量读取，并定义好所需配置的环境变量。
 3. Demo 描述尽量使用中文，简洁扼要的描述 Demo 的实现功能，可适用的场景，使用的方式。
-4. 每个Demo的英文名称必填且唯一,不同开发语言可以一样
+4. 每个Demo的英文名称必填且唯一,不同开发语言可以一样。
 
 
 ## 上传到Demo库
