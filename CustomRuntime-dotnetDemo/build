@@ -1,7 +1,0 @@
-#!/bin/sh
-# Must do this on a linux machine with dotnet sdk
-cd ./src/
-dotnet build --configuration Release
-cd ..
-
-zip -x config.json -q -r ./dotnet-demo.zip ./* 
